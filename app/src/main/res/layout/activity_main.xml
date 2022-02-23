@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Main_Screen"
+    android:background="@color/bg_colour2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/LogoText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/AppTxt1"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="90sp"
+        />
+
+    <TextView
+        android:id="@+id/LogoText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="92dp"
+        android:gravity="center"
+        android:text="@string/AppTxt2"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="60sp"
+         />
+
+    <TextView
+        android:id="@+id/CreateAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LogoText1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/createAccTxt"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CreateAcc"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/Or"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Login_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/LogInTxt"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="30sp" />
+
+</RelativeLayout>

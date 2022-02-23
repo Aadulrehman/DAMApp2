@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DAMApp</string>
+    <string name="AppTxt1">DAM</string>
+    <string name="AppTxt2">App</string>
+    <string name="createAccTxt">create account?</string>
+    <string name="Or">or</string>
+    <string name="LogInTxt">login in</string>
+    <string name="AccCreateTxt2">Create an account</string>
+    <string name="FullName">Full Name:</string>
+    <string name="FNameTxt">enter full name here</string>
+    <string name="Email">Email:</string>
+    <string name="EmailTxt">enter email here</string>
+    <string name="DateOfBirth">Date of Birth:</string>
+    <string name="DobTxt">choose dob</string>
+    <string name="Pass">Password:</string>
+    <string name="PassTxt">enter password here</string>
+    <string name="Address">Address:</string>
+    <string name="AddressTxt">enter the address here</string>
+    <string name="log_inBtn">log-in</string>
+    <string name="AccountBtn">create account</string>
+    <string name="DescriptionTxt">enter description here</string>
+    <string name="ActivityDetails">Activity Details</string>
+    <string name="TitleTxt">enter activity title</string>
+    <string name="ATitle">Activity Title:</string>
+    <string name="AddActivity">Add Activity</string>
+    <string name="ImgBtn">choose image from activity</string>
+    <string name="AddActivityBtn">Add Activity</string>
+    <string name="SignOutTxt">Sign Out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="activity_details">Activity Details</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_colour2"
+    android:id="@+id/ActivityDetails"
+    tools:context=".ActivityDetails">
+
+    <TextView
+        android:id="@+id/MiniLogoText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/AppTxt1"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/MiniLogoText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="77dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/AppTxt2"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/SignOutOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="@string/SignOutTxt"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/addbtnforact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="@color/Heading_Colour"
+        android:text="+"
+        android:textColor="@color/bg_colour2"
+        android:textSize="35sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fb_working_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/MiniLogoText1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+</RelativeLayout>

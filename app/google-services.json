@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015502215371",
+    "project_id": "final-4bee3",
+    "storage_bucket": "final-4bee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015502215371:android:e4c5819b196d7c78c8634e",
+        "android_client_info": {
+          "package_name": "com.example.damapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015502215371-vg5b5svl86vft6jvuqjpo9ptmpggdjas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdAFKpARgN6fXPTLOhBGFRehvJ-b9Ttwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015502215371-vg5b5svl86vft6jvuqjpo9ptmpggdjas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

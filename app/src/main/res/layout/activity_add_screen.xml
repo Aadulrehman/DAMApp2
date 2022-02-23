@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/AddActivityScreen"
+    android:background="@color/bg_colour2"
+    tools:context=".AddActivityScreen">
+
+    <TextView
+        android:id="@+id/LogoText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/AppTxt1"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/LogoText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:gravity="center"
+        android:layout_marginTop="81dp"
+        android:text="@string/AppTxt2"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/AddActivityPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LogoText1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/AddActivity"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/ActivityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddActivityPage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/ATitle"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ATitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ActivityTitle"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/Heading_Colour"
+        android:hint="@string/TitleTxt"
+        android:textColor="@color/LightPInkColour" />
+
+    <TextView
+        android:id="@+id/ADetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ATitleTxt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/ActivityDetails"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ADetailsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ADetails"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/Heading_Colour"
+        android:hint="@string/DescriptionTxt"
+        android:textColor="@color/LightPInkColour" />
+
+    <Button
+        android:id="@+id/ChoosePicBtn"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/ADetailsTxt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_button"
+        android:text="@string/ImgBtn"
+        android:textColor="@color/bg_colour2" />
+
+    <Button
+        android:id="@+id/AddActBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ChoosePicBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/round_button"
+        android:text="@string/AddActivityBtn"
+        android:textColor="@color/bg_colour2" />
+
+    <Button
+        android:id="@+id/Signout"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/AddActBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/round_button"
+        android:text="@string/sign_out"
+        android:textColor="@color/bg_colour2" />
+</RelativeLayout>

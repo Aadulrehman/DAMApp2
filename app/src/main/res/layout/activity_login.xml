@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LoginActivity"
+    android:background="@color/bg_colour2"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/LogoText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/AppTxt1"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/LogoText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:gravity="center"
+        android:layout_marginTop="81dp"
+        android:text="@string/AppTxt2"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/LoginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LogoText1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Log-in:"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginPage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/Email"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EmailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/Heading_Colour"
+        android:hint="@string/EmailTxt"
+        android:textColorHint="@color/LightPInkColour" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmailTxt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/Pass"
+        android:textColor="@color/Heading_Colour"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/PasswordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Password"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/Heading_Colour"
+        android:hint="@string/PassTxt"
+        android:textColorHint="@color/LightPInkColour" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/PasswordTxt"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_button"
+        android:hint="@string/log_inBtn"
+        android:textColorHint="@color/bg_colour2" />
+</RelativeLayout>
